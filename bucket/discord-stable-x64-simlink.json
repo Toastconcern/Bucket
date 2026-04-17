@@ -7,7 +7,7 @@
     "url": "https://discordapp.com/terms"
   },
   "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64#/dl.7z",
-  "hash": "d7d109e6d48cbc08320b4af0ed2080826699867c80803fec9e49ce0cf47d2d0f",
+  "hash": "eaba7863d5a7ed017a865f991267583e0768914aba99590874da0980832e45a3",
   "pre_install": [
     "$packages = New-Item $dir -Name 'packages' -ItemType 'directory'",
     "Move-Item $dir\\RELEASES -Destination $packages",
